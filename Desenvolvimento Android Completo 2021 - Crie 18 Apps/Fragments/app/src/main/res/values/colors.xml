@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D71245</color> //rosa
+    <color name="colorPrimaryDark">#AA0F37</color> //rosa escuro
+    <color name="colorAccent">#D71245</color> //rosa
+    <color name="colorBackground">#EFF1F8</color> //cinza claro
+    <color name="colorTextSecondary">#5C5C5C</color> //cinza escuro
+</resources>

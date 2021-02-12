@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Posicionamentos (static, relative, absolute e fixed) </title>
+
+    <style type="text/css">
+        body { background: #007fc7; }
+
+        #container {
+            background: #fff;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            position: relative;
+        }
+
+        p { width: 300px; }
+
+        /* deslocamento: top, right, bottom, left (valores positivos e negativos) */
+
+        .fixed {
+            border: 1px solid red;
+            background: #f2f2f2;
+            margin: 0px;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .absolute {
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: absolute;
+            top: 80px;
+            right: 80px;
+        }
+
+        .relative {
+            border: 1px solid red;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1> Posicionamentos </h1>
+        <P> P01 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P class="fixed"> P02 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P03 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P04 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P05 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P06 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P07 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P08 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P09 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P10 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P11 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P12 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P13 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P14 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+        <P> P15 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum risus eget ligula euismod semper ac id risus. Mauris rhoncus tortor arcu, vel ornare magna luctus vel. </P>
+    </div>
+</body>
+</html>

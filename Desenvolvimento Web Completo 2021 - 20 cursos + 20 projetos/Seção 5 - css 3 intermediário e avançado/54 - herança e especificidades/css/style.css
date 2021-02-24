@@ -1,0 +1,39 @@
+/* herança */
+/*
+* {
+    border: 1px solid blue;
+}
+*/
+
+body {
+    color: red;
+    /* border: 1px solid blue; */
+}
+
+
+/* especificidade: seletores iguas, exceção important */
+#pagina2 p {
+    color: blue !important;
+}
+
+#pagina2 p {
+    color: orange;
+}
+
+/* se um seletor for mais específico que outro a regra mais específica será aplicada (terá precedência sobre regras mais gerais)
+ordem: id > class > elemento > geral */
+#pagina3 * { /* 4° */
+    color: red;
+}
+
+#pagina3 h2 { /* 3° */
+    color: blue;
+}
+
+#pagina3 h2.verde { /* 2° */
+    color: green;
+}
+
+#pagina3 h2#amarelo { /* 1° */
+    color: yellow;
+}

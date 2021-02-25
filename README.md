@@ -6,7 +6,7 @@
 
 <ul>
     <li> <strong>Desenvolvimento Android Completo 2021 - Crie 18 Apps.</strong> <br>
-    Instrutores: Jamilton Damasceno.
+    Instrutor: Jamilton Damasceno.
     </li>
     <li> <strong>Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos.</strong> <br>
     Instrutores: Jamilton Damasceno e Jorge Sant Ana.

@@ -1,4 +1,4 @@
-<h1 align="center"> :books: Cursos Udemy :video_game: </h1>
+<h1 align="center"> :books: Cursos Udemy </h1>
 
 <hr>
 

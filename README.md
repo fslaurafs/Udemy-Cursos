@@ -1,4 +1,4 @@
-<h1 align="center"> :books: Digital Innovation One </h1>
+<h1 align="center"> :books: Cursos Udemy </h1>
 
 <h3> :pushpin: Cursos em andamento: </h3>
 <details>

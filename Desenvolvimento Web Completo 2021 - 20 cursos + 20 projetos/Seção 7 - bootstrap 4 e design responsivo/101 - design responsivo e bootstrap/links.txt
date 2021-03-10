@@ -1,0 +1,9 @@
+1. Media Queries: https://mediaqueri.es/
+
+2. Bootstrap: https://getbootstrap.com/
+
+3. Sites Responsivos:
+	a. Wellington: https://wellington.govt.nz/
+	b. Nasa: https://www.nasa.gov/
+	c. Vogue Brasil: https://vogue.globo.com/
+	d. Spotify: https://www.spotify.com/br/home/
